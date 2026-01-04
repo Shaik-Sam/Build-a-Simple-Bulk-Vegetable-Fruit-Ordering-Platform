@@ -2,7 +2,7 @@
 
 A simple web application for bulk ordering vegetables and fruits. Buyers can browse products, place orders, and track their order status. Admins can view all orders and update their delivery status.
 
-## 🚀 Features
+##  Features
 
 ### For Buyers
 - **Browse Products**: View a catalogue of available vegetables and fruits with prices
@@ -18,7 +18,7 @@ A simple web application for bulk ordering vegetables and fruits. Buyers can bro
 - **View All Orders**: See a complete list of all placed orders
 - **Update Order Status**: Change order status from Pending to Delivered
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Node.js** with Express.js
@@ -35,7 +35,7 @@ A simple web application for bulk ordering vegetables and fruits. Buyers can bro
   - `products`: Stores product information (name, price per unit)
   - `orders`: Stores order details (order_id, buyer info, product, quantity, address, status)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -59,7 +59,7 @@ A simple web application for bulk ordering vegetables and fruits. Buyers can bro
 └── README.md
 ```
 
-## 🚀 Steps to Run Locally
+##  Steps to Run Locally
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -133,7 +133,7 @@ REACT_APP_API_URL=http://localhost:5000/api
 - `PUT /api/admin/orders/:orderId` - Update order status
   - Body: `{ status: "Pending" | "Delivered" }`
 
-## 🗄️ Database Schema
+##  Database Schema
 
 ### Products Table
 ```sql
@@ -159,7 +159,7 @@ CREATE TABLE orders (
 );
 ```
 
-## 🎯 Usage Guide
+##  Usage Guide
 
 ### For Buyers
 
@@ -179,7 +179,7 @@ CREATE TABLE orders (
 1. **View Orders**: Click "Admin" in the navigation to see all orders
 2. **Update Status**: Click "Mark as Delivered" button next to pending orders
 
-## 🚢 Deployment
+##  Deployment
 
 ### Frontend (Vercel/Netlify)
 
@@ -224,19 +224,19 @@ npm run build
 - Action buttons to update order status
 - Status badges for visual clarity
 
-## ✅ Features Implemented
+##  Features Implemented
 
-- ✅ Product catalogue display
-- ✅ Order placement with validation
-- ✅ Order tracking by Order ID
-- ✅ Admin order management
-- ✅ Order status update (Pending → Delivered)
-- ✅ SQLite database with Products and Orders tables
-- ✅ RESTful API with proper HTTP methods
-- ✅ Responsive UI design
-- ✅ Error handling and user feedback
+-  Product catalogue display
+-  Order placement with validation
+-  Order tracking by Order ID
+-  Admin order management
+-  Order status update (Pending → Delivered)
+-  SQLite database with Products and Orders tables
+-  RESTful API with proper HTTP methods
+-  Responsive UI design
+-  Error handling and user feedback
 
-## 🔧 Future Enhancements
+##  Future Enhancements
 
 - User authentication
 - Order history for buyers
@@ -246,11 +246,4 @@ npm run build
 - Payment integration
 - Inventory management
 
-## 📝 License
-
-This project is open source and available for educational purposes.
-
----
-
-**Note**: This is a simple demonstration project. For production use, consider adding authentication, input sanitization, rate limiting, and more robust error handling.
 
