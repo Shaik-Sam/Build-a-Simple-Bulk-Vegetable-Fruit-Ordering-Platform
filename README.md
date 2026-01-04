@@ -118,7 +118,7 @@ If your backend is running on a different port or URL, create a `.env` file in t
 REACT_APP_API_URL=http://localhost:5000/api
 ```
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Products
 - `GET /api/products` - Get all products
@@ -204,7 +204,7 @@ npm run build
 
 **Note**: For Render deployment, you may need to use a persistent database solution or configure SQLite to use a persistent volume.
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Product Catalogue
 - Displays all available vegetables and fruits in a grid layout
@@ -245,5 +245,6 @@ npm run build
 - Email notifications
 - Payment integration
 - Inventory management
+
 
 
